@@ -1,0 +1,20 @@
+{
+	"name": "json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "data_lake_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "customers.json",
+				"folderPath": "isaac-lex",
+				"fileSystem": "demo"
+			}
+		},
+		"schema": {}
+	}
+}
