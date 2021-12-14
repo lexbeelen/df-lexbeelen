@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "data_lake_gen2",
